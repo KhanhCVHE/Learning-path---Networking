@@ -23,4 +23,4 @@ Networking overview
     - ##PAN (personal area network)
     - ##SAN (storage area network)
     - ##CAN (campus area network)
-    - ##VPN (virtual private network)
+    ##- VPN (virtual private network)
