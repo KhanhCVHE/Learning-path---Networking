@@ -72,7 +72,7 @@
 |123|UDP|Network Time Protocol(NTP)|
 
 ## Network cable types
- - Network cable types là phần cứng mạng được sử dụng để kết nối một thiết bị mạng với các thiết bị mạng khác hoặc để kết nối hai hoặc nhiều máy tính để chia sẻ máy in, máy quét, v.v. Các loại cáp mạng khác nhau, chẳng hạn như cáp đồng trục, cáp quang và cáp cặp xoắn, được sử dụng tùy thuộc vào lớp vật lý, topology và kích thước của mạng. Các thiết bị có thể cách nhau vài mét (ví dụ: thông qua Ethernet) hoặc khoảng cách gần như không giới hạn (ví dụ: thông qua các kết nối của Internet).
+ - Network cable types là phần cứng mạng được sử dụng để kết nối một thiết bị mạng với các thiết bị mạng khác hoặc để kết nối hai hoặc nhiều máy tính để chia sẻ máy in, máy quét, v.v. Các loại cáp mạng khác nhau, chẳng hạn như cáp đồng trục, cáp quang và cáp cặp xoắn, được sử dụng tùy thuộc vào lớp vật lý, topology và kích thước của mạng. Các thiết bị có thể cách nhau vài mét (ví dụ: thông qua Ethernet) hoặc khoảng cách gần như không giới hạn (ví dụ: thông qua các kết nối của Internet).  
 ![image](https://i.imgur.com/QhJz5VY.png)
 ![image](https://i.imgur.com/PZhrQDc.png)
 ![image](https://i.imgur.com/MVdrk66.png)
@@ -82,26 +82,26 @@
 	- Cấu trúc liên kết lưới:
 	Trong cấu trúc liên kết lưới, mỗi thiết bị được kết nối với một thiết bị khác thông qua một kênh cụ thể.
     Ưu điểm của nó là rất mạnh mẽ. Lỗi được chẩn đoán dễ dàng. Dữ liệu là đáng tin cậy vì dữ liệu được truyền giữa các thiết bị thông qua các kênh hoặc liên kết chuyên dụng. Cung cấp bảo mật và quyền riêng tư.
-    Nhược điểm là cài đặt và cấu hình rất khó khăn. Chi phí cáp cao vì cần có hệ thống dây điện số lượng lớn, do đó phù hợp với số lượng thiết bị ít hơn. Chi phí bảo trì rất cao.
+    Nhược điểm là cài đặt và cấu hình rất khó khăn. Chi phí cáp cao vì cần có hệ thống dây điện số lượng lớn, do đó phù hợp với số lượng thiết bị ít hơn. Chi phí bảo trì rất cao.  
 	![image](https://i.imgur.com/k0Grd6x.png)
     - Star Topology
 	Trong Star Topology, tất cả các thiết bị được kết nối với một trung tâm duy nhất thông qua cáp. Hub này là nút trung tâm và tất cả các nút khác được kết nối với nút trung tâm. Trung tâm có thể thụ động trong tự nhiên, tức là không phải là một trung tâm thông minh như các thiết bị phát sóng, đồng thời trung tâm có thể thông minh được gọi là trung tâm hoạt động. Các trung tâm hoạt động có bộ lặp trong đó.
     Ưu điểm là nếu các thiết bị N được kết nối với nhau trong cấu trúc liên kết sao, thì số lượng cáp cần thiết để kết nối chúng là N. Vì vậy, nó rất dễ dàng để thiết lập. Mỗi thiết bị chỉ cần 1 cổng tức là để kết nối với trung tâm, do đó tổng số cổng cần thiết là N. 
-    Nhược điểm là cài đặt và cấu hình rất khó khăn. Chi phí cáp cao vì cần có hệ thống dây điện số lượng lớn, do đó phù hợp với số lượng thiết bị ít hơn. Chi phí bảo trì rất cao.
+    Nhược điểm là cài đặt và cấu hình rất khó khăn. Chi phí cáp cao vì cần có hệ thống dây điện số lượng lớn, do đó phù hợp với số lượng thiết bị ít hơn. Chi phí bảo trì rất cao.  
 	![image](https://i.imgur.com/w0qpFOh.png)
     - Bus Topology
     Bus Topology là một loại mạng trong đó mỗi máy tính và thiết bị mạng được kết nối với một cáp duy nhất. Nó truyền dữ liệu từ đầu này sang đầu kia theo một hướng duy nhất. Không có tính năng hai chiều là trong Bus Topology. Nó là một kết nối đa điểm và một Topology không mạnh mẽ bởi vì nếu xương sống thất bại, Topology sẽ sụp đổ.
     Ưu điểm là nếu các thiết bị N được kết nối với nhau trong cấu trúc liên kết Bus, thì số lượng cáp cần thiết để kết nối chúng là 1, được gọi là cáp xương sống và đường thả N là bắt buộc. Chi phí của cáp ít hơn so với các topologies khác, nhưng nó được sử dụng để xây dựng các mạng nhỏ.
-    Nhược điểm là nếu cáp bị hỏng, thì toàn bộ hệ thống sẽ sụp đổ. Nếu lưu lượng mạng nặng, nó làm tăng va chạm trong mạng. Để tránh điều này, các giao thức khác nhau được sử dụng trong lớp MAC được gọi là Pure Aloha, Slotted Aloha, CSMA / CD, v.v. An ninh rất thấp.
+    Nhược điểm là nếu cáp bị hỏng, thì toàn bộ hệ thống sẽ sụp đổ. Nếu lưu lượng mạng nặng, nó làm tăng va chạm trong mạng. Để tránh điều này, các giao thức khác nhau được sử dụng trong lớp MAC được gọi là Pure Aloha, Slotted Aloha, CSMA / CD, v.v. An ninh rất thấp.  
     ![image](https://i.imgur.com/YYNLJ3z.png)
 
     - Cấu trúc liên kết 
     Trong cấu trúc liên kết này, nó tạo thành một vòng kết nối các thiết bị với chính xác hai thiết bị lân cận của nó.Một số bộ lặp được sử dụng cho cấu trúc liên kết Ring với số lượng lớn các nút, bởi vì nếu ai đó muốn gửi một số dữ liệu đến nút cuối cùng trong cấu trúc liên kết vòng với 100 nút, thì dữ liệu sẽ phải đi qua 99 nút để đến nút thứ 100. Do đó để ngăn chặn bộ lặp mất dữ liệu được sử dụng trong mạng.Việc truyền tải là một chiều, nhưng nó có thể được thực hiện hai chiều bằng cách có 2 kết nối giữa mỗi Nút mạng, nó được gọi là Dual Ring Topology.
     Ưu điểm là khả năng sảy ra va chạm là rất ít trong loại Topology này.Giá rẻ để cài đặt và mở rộng.
-    Nhược điểm là khắc phục sự cố rất khó khăn trong cấu trúc liên kết này. Việc bổ sung các trạm ở giữa hoặc loại bỏ các trạm có thể làm xáo trộn toàn bộ Topology. Ít an toàn hơn.
+    Nhược điểm là khắc phục sự cố rất khó khăn trong cấu trúc liên kết này. Việc bổ sung các trạm ở giữa hoặc loại bỏ các trạm có thể làm xáo trộn toàn bộ Topology. Ít an toàn hơn.  
     ![image](https://i.imgur.com/VgiodQH.png)
     - Tree Topology
-    Topology này là biến thể của Star Topology. Cấu trúc liên kết này có một luồng dữ liệu phân cấp.
+    Topology này là biến thể của Star Topology. Cấu trúc liên kết này có một luồng dữ liệu phân cấp.  
 ![image](https://i.imgur.com/jo2bYIk.png)
 ## OSI và TCP/IP
 - Sự tương đồng giữa OSI và TCP / IP
@@ -115,6 +115,15 @@
     Mô hình OSI phân biệt ba khái niệm, cụ thể là dịch vụ, giao diện và giao thức. TCP/IP không có sự phân biệt rõ ràng giữa ba loại này.
     Mô hình OSI đưa ra các hướng dẫn về cách giao tiếp cần phải được thực hiện, trong khi các tiêu chuẩn bố trí giao thức TCP / IP mà Internet được phát triển. Vì vậy, TCP /IP là một mô hình thực tế hơn.
     Trong OSI, mô hình được phát triển đầu tiên và sau đó các giao thức trong mỗi lớp được phát triển. Trong bộ TCP / IP, các giao thức được phát triển đầu tiên và sau đó mô hình được phát triển.
-    OSI có bảy lớp trong khi TCP / IP có bốn lớp.
+    OSI có bảy lớp trong khi TCP / IP có bốn lớp.  
     ![image](https://i.imgur.com/C41Cgyr.png)
 ## Network Protocol
+ - UDP (User Datagram Protocol) là một giao thức truyền thông được sử dụng trên Internet, UDP được ưu điểm là có tốc độ nhanh, chẳng hạn như phát lại video hoặc tra cứu DNS. Nó tăng tốc độ liên lạc bằng cách không chính thức thiết lập kết nối trước khi dữ liệu được truyền. Điều này cho phép dữ liệu được truyền rất nhanh chóng, nhưng nó cũng có thể khiến các gói tin bị thất lạc trong quá trình trao đổi.  
+ ![image](https://i.imgur.com/Dw1axLo.png)
+ - TCP (Transmission Control Protocol) là một trong những giao thức chính của bộ giao thức Internet. Nó bắt nguồn từ việc triển khai mạng ban đầu, trong đó nó bổ sung cho Giao thức Internet (IP). Các ứng dụng internet lớn như World Wide Web, email, quản trị từ xa và truyền tệp dựa vào TCP. Trong một giao tiếp TCP, hai máy tính bắt đầu bằng cách thiết lập một kết nối thông qua một quá trình tự động được gọi là "bắt tay". Chỉ khi cái bắt tay này được hoàn thành, một máy tính mới thực sự chuyển các gói dữ liệu sang máy tính khác. Vậy nên TCP có tốc độ chậm hơn UDP nhưng lại ổn định hơn UDP.  
+  ![image](https://i.imgur.com/qqbt23e.png)
+
+ - DNS (Domain Name System) được coi là danh bạ điện thoại của Internet. Con người truy cập thông tin trực tuyến thông qua tên miền, như facebook.com hoặc youtube.com. Trình duyệt web tương tác thông qua các địa chỉ Giao thức Internet (IP). DNS dịch tên miền sang địa chỉ IP để trình duyệt có thể tải tài nguyên Internet. Mỗi thiết bị được kết nối với Internet có một địa chỉ IP duy nhất mà các máy khác sử dụng để tìm thiết bị. Máy chủ DNS loại bỏ sự cần thiết của con người để ghi nhớ các địa chỉ IP như 192.168.1.1 (trong IPv4), hoặc các địa chỉ IP chữ số mới hơn phức tạp hơn như 2400:cb00:2048:1::c629:d7a2 (trong IPv6). Nôm na DNS sẽ chuyển đổi tên máy chủ (chẳng hạn như www.example.com) thành địa chỉ IP thân thiện với máy tính (chẳng hạn như 192.168.1.1) và ngược lại khi ta cần truy cập vào một trang web thì chỉ cần nhập (example.com) thay vì nhập (192.168.1.1)  
+  ![](https://i.imgur.com/z7nToRh.png)
+ - DHCP (Dynamic Host Configuration Protocol) là một giao thức cung cấp quản lý nhanh chóng, tự động và trung tâm để phân phối địa chỉ IP trong mạng. Nó cũng được sử dụng để cấu hình subnet mask, default gateway và thông tin máy chủ DNS trên thiết bị. DHCP cấp địa chỉ IP duy nhất và tự động cấu hình thông tin mạng khác. Trong hầu hết các gia đình và doanh nghiệp nhỏ, bộ định tuyến hoạt động như máy chủ DHCP. Trong các mạng lớn, một máy tính duy nhất có thể đảm nhận vai trò đó.
+ ![image](https://i.imgur.com/w85hVn2.png)  
